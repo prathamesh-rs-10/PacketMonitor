@@ -15,8 +15,6 @@ import datetime
 from scapy.all import TCP, ICMP, send
 from dotenv import load_dotenv
 
-model = joblib.load('decision_tree_model.pkl')
-
 load_dotenv()
 
 # Firebase Admin SDK initialization with environment variables
